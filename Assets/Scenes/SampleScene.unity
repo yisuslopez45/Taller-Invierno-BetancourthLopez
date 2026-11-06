@@ -205,8 +205,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.292652, y: 0.0010812025, z: -0.00049085694, w: 0.9562183}
-  m_LocalPosition: {x: 519.69586, y: 32.939392, z: 580.584}
+  m_LocalRotation: {x: -0.25948104, y: -0.010447354, z: 0.0027313216, w: -0.9656879}
+  m_LocalPosition: {x: 510.29892, y: 36.720207, z: 479.48242}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -444,7 +444,7 @@ GameObject:
   - component: {fileID: 848758263}
   - component: {fileID: 848758262}
   m_Layer: 0
-  m_Name: Terrain
+  m_Name: Snow_Terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -526,7 +526,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1234249050
+--- !u!1001 &1488847375
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -536,15 +536,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1482304560665411663, guid: 69cdbe0692ba4624b9259fb58689f06d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 519.7563
+      value: 510.24
       objectReference: {fileID: 0}
     - target: {fileID: 1482304560665411663, guid: 69cdbe0692ba4624b9259fb58689f06d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 25.426228
+      value: 32.014
       objectReference: {fileID: 0}
     - target: {fileID: 1482304560665411663, guid: 69cdbe0692ba4624b9259fb58689f06d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 586.78033
+      value: 484.73
       objectReference: {fileID: 0}
     - target: {fileID: 1482304560665411663, guid: 69cdbe0692ba4624b9259fb58689f06d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -576,7 +576,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2295116759664368373, guid: 69cdbe0692ba4624b9259fb58689f06d, type: 3}
       propertyPath: m_Name
-      value: PoliceCar
+      value: Police_Car
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -591,4 +591,4 @@ SceneRoots:
   - {fileID: 410087041}
   - {fileID: 832575519}
   - {fileID: 848758264}
-  - {fileID: 1234249050}
+  - {fileID: 1488847375}
